@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include foodlink_supply_system *.css
+recursive-include foodlink_supply_system *.csv
+recursive-include foodlink_supply_system *.html
+recursive-include foodlink_supply_system *.ico
+recursive-include foodlink_supply_system *.js
+recursive-include foodlink_supply_system *.json
+recursive-include foodlink_supply_system *.md
+recursive-include foodlink_supply_system *.png
+recursive-include foodlink_supply_system *.py
+recursive-include foodlink_supply_system *.svg
+recursive-include foodlink_supply_system *.txt
+recursive-exclude foodlink_supply_system *.pyc
