@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-04 15:00:57.494379",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "farm_name",
+  "supply_stating_date",
+  "supply_ending_date",
+  "forecast_status",
+  "forecast_produces_details_section_section",
+  "forecast_items_details",
+  "supplied_produces_details_section_section",
+  "supplied_items_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "farm_name",
+   "fieldtype": "Link",
+   "label": "Farm Name",
+   "options": "Farms"
+  },
+  {
+   "fieldname": "supply_stating_date",
+   "fieldtype": "Date",
+   "label": "Supply Stating Date"
+  },
+  {
+   "fieldname": "supply_ending_date",
+   "fieldtype": "Date",
+   "label": "Supply Ending Date"
+  },
+  {
+   "fieldname": "forecast_status",
+   "fieldtype": "Select",
+   "label": "Forecast Status",
+   "options": "Forecast\nCompleted\nOn Going\nCancelled\nOn Hold"
+  },
+  {
+   "fieldname": "forecast_produces_details_section_section",
+   "fieldtype": "Section Break",
+   "label": "Forecast Produces Details Section"
+  },
+  {
+   "fieldname": "forecast_items_details",
+   "fieldtype": "Data",
+   "label": "Forecast Items Details"
+  },
+  {
+   "fieldname": "supplied_produces_details_section_section",
+   "fieldtype": "Section Break",
+   "label": "Supplied Produces Details Section"
+  },
+  {
+   "fieldname": "supplied_items_details",
+   "fieldtype": "Data",
+   "label": "Supplied Items Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-01-04 15:21:14.745498",
+ "modified_by": "Administrator",
+ "module": "Foodlink Supply System",
+ "name": "Supply Forecast",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

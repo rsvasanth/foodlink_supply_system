@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-04 15:16:37.064593",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "order_created_on",
+  "order_type",
+  "order_id",
+  "order_status",
+  "customer",
+  "order_starting_date",
+  "order_ending_date",
+  "order_items_deatils"
+ ],
+ "fields": [
+  {
+   "fieldname": "order_created_on",
+   "fieldtype": "Datetime",
+   "label": "Order Created On"
+  },
+  {
+   "fieldname": "order_type",
+   "fieldtype": "Data",
+   "label": "Order Type"
+  },
+  {
+   "fieldname": "order_id",
+   "fieldtype": "Data",
+   "label": "Order Id"
+  },
+  {
+   "fieldname": "order_status",
+   "fieldtype": "Data",
+   "label": "Order Status"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "order_starting_date",
+   "fieldtype": "Data",
+   "label": "Order Starting Date"
+  },
+  {
+   "fieldname": "order_ending_date",
+   "fieldtype": "Data",
+   "label": "Order Ending Date"
+  },
+  {
+   "fieldname": "order_items_deatils",
+   "fieldtype": "Data",
+   "label": "Order Items Deatils"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-01-04 15:19:38.101079",
+ "modified_by": "Administrator",
+ "module": "Foodlink Supply System",
+ "name": "Orders",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

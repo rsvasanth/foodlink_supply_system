@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-04 15:15:12.234352",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "produce_name",
+  "price",
+  "monday_supply",
+  "tuesday_supply",
+  "wednesday_supply",
+  "thursday_supply",
+  "friday_supply",
+  "saturday_supply"
+ ],
+ "fields": [
+  {
+   "fieldname": "produce_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Produce Name"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Price"
+  },
+  {
+   "fieldname": "monday_supply",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Monday Supply"
+  },
+  {
+   "fieldname": "tuesday_supply",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Tuesday Supply"
+  },
+  {
+   "fieldname": "wednesday_supply",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Wednesday Supply"
+  },
+  {
+   "fieldname": "thursday_supply",
+   "fieldtype": "Float",
+   "label": "Thursday Supply"
+  },
+  {
+   "fieldname": "friday_supply",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Friday Supply"
+  },
+  {
+   "fieldname": "saturday_supply",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Saturday Supply"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-04 15:24:26.627451",
+ "modified_by": "Administrator",
+ "module": "Foodlink Supply System",
+ "name": "Forecast Items Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
