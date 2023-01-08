@@ -18,9 +18,10 @@
  "fields": [
   {
    "fieldname": "produce_name",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Produce Name"
+   "label": "Produce Name",
+   "options": "Produces"
   },
   {
    "fieldname": "price",
@@ -67,7 +68,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-01-04 15:24:26.627451",
+ "modified": "2023-01-08 17:39:29.495432",
  "modified_by": "Administrator",
  "module": "Foodlink Supply System",
  "name": "Forecast Items Table",

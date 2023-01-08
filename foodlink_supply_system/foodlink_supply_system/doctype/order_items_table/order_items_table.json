@@ -6,36 +6,74 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "produce_name"
+  "produce_name",
+  "price",
+  "monday_order",
+  "tuesday_order",
+  "wednesday_order",
+  "thursday_order",
+  "friday_order",
+  "saturday_order"
  ],
  "fields": [
   {
    "fieldname": "produce_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Produce Name",
+   "options": "Produces"
+  },
+  {
+   "fieldname": "price",
    "fieldtype": "Data",
-   "label": "Produce Name"
+   "in_list_view": 1,
+   "label": "Price"
+  },
+  {
+   "fieldname": "monday_order",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Monday"
+  },
+  {
+   "fieldname": "tuesday_order",
+   "fieldtype": "Data",
+   "label": "Tuesday"
+  },
+  {
+   "fieldname": "wednesday_order",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Wednesday"
+  },
+  {
+   "fieldname": "thursday_order",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Thursday"
+  },
+  {
+   "fieldname": "friday_order",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Friday"
+  },
+  {
+   "fieldname": "saturday_order",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Saturday"
   }
  ],
  "index_web_pages_for_search": 1,
+ "istable": 1,
  "links": [],
- "modified": "2023-01-04 15:15:37.727724",
+ "modified": "2023-01-08 17:27:44.470283",
  "modified_by": "Administrator",
  "module": "Foodlink Supply System",
  "name": "Order Items Table",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
  "sort_field": "modified",
  "sort_order": "DESC"
 }

@@ -1,19 +1,22 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "FORECAST.#####",
  "creation": "2023-01-04 15:00:57.494379",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "farm_name",
+  "column_break_2",
   "supply_stating_date",
   "supply_ending_date",
+  "section_break_5",
   "forecast_status",
   "forecast_produces_details_section_section",
   "forecast_items_details",
-  "supplied_produces_details_section_section",
-  "supplied_items_details"
+  "section_break_11",
+  "comments"
  ],
  "fields": [
   {
@@ -45,23 +48,31 @@
   },
   {
    "fieldname": "forecast_items_details",
-   "fieldtype": "Data",
-   "label": "Forecast Items Details"
+   "fieldtype": "Table",
+   "label": "Forecast Items Details",
+   "options": "Forecast Items Table"
   },
   {
-   "fieldname": "supplied_produces_details_section_section",
-   "fieldtype": "Section Break",
-   "label": "Supplied Produces Details Section"
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "supplied_items_details",
-   "fieldtype": "Data",
-   "label": "Supplied Items Details"
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Small Text",
+   "label": "Comments"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-04 15:21:14.745498",
+ "modified": "2023-01-08 17:38:22.293743",
  "modified_by": "Administrator",
  "module": "Foodlink Supply System",
  "name": "Supply Forecast",
