@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:user_id",
  "creation": "2023-01-04 14:49:29.289874",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -49,12 +50,13 @@
    "fieldname": "user_id",
    "fieldtype": "Link",
    "label": "User Id",
-   "options": "User"
+   "options": "User",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-04 14:50:45.138435",
+ "modified": "2023-01-11 10:39:14.351257",
  "modified_by": "Administrator",
  "module": "Foodlink Supply System",
  "name": "Customer",
