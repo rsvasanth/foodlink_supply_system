@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-15 10:11:13.804508",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "member_name",
+  "linked_system_id",
+  "column_break_hv1ol",
+  "member_type",
+  "section_break_nloi9",
+  "first_name",
+  "last_name",
+  "community",
+  "column_break_0vkqn",
+  "phone",
+  "email",
+  "account_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "member_name",
+   "fieldtype": "Data",
+   "label": "Member Name"
+  },
+  {
+   "fieldname": "member_type",
+   "fieldtype": "Select",
+   "label": "Member Type",
+   "options": "\nCommercial Unit\nService Unit\nIndividual\nOthers"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "account_number",
+   "fieldtype": "Int",
+   "label": "Account Number"
+  },
+  {
+   "fieldname": "community",
+   "fieldtype": "Select",
+   "label": "Community",
+   "options": "\nAcceptance\nAdventure\nAmi\nAnnapurna\nAntakarana\nArc en Ciel\nAranja\nArya\nAspiration\nAuroAnnam\nAurobrindavan\nAurogreen\nAuro-Orchard\nAuromodele\nBaraka\nBuddha\nCertitude\nCelebration\nDarkali\nDjaima\nDiscipline\nDouceur\nEast\nEternity\nExistence\nEvergreen\nFelicity\nForecomers\nFraternity\nGaia\nGaia's Garden\nGarden\nGokulam\nGrace\nGratitude\nHalcyon\nHermitage\nHope\nIsaiambalam\nJardin De Mere\nKalabhumi\nKottakarai Farm\nKottakarai Orchard\nLa Ferme\nLight\nMadhuca\nMatrimandir Nursery\nMeadow\nMinati\nNew Creation\nNew Lands\nNilatangham\nNine Palms\nPetite Ferme\nPitchandikulam\nPrarthna\nPrayatna\nPromesse\nProtection\nPump House\nQuiet\nRavena\nRepos\nR\u00e9v\u00e9lation\nRevelation\nSadhana Forest\nSamriddhi\nSamarpan\nSangha\nService Farm\nSharnga\nShakti\nShakti Loka\nShanti\nSiddhartha Farm\nSilence\nSimplicity\nSincerity\nSlancio\nSolitude\nSri Ma\nSukhavati\nSuccess\nSurrender\nSve Dame\nSwayam\nTransformation\nTwo Banyan\nUtility\nV\u00e9rit\u00e9\nVikas\nVictory\nWindarra\nYantra"
+  },
+  {
+   "fieldname": "column_break_hv1ol",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_nloi9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_0vkqn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "linked_system_id",
+   "fieldtype": "Link",
+   "label": "Linked System Id",
+   "options": "User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-15 10:54:28.121598",
+ "modified_by": "Administrator",
+ "module": "Foodlink Supply System",
+ "name": "Members",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

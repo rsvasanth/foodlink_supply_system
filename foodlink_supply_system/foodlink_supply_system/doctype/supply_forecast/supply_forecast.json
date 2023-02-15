@@ -8,11 +8,13 @@
  "engine": "InnoDB",
  "field_order": [
   "farm_name",
-  "column_break_2",
+  "column_break_dkig2",
+  "forecast_status",
+  "section_break_3tzpg",
   "supply_stating_date",
+  "column_break_tebkk",
   "supply_ending_date",
   "section_break_5",
-  "forecast_status",
   "forecast_produces_details_section_section",
   "forecast_items_details",
   "section_break_11",
@@ -53,10 +55,6 @@
    "options": "Forecast Items Table"
   },
   {
-   "fieldname": "column_break_2",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "section_break_5",
    "fieldtype": "Section Break"
   },
@@ -68,11 +66,23 @@
    "fieldname": "comments",
    "fieldtype": "Small Text",
    "label": "Comments"
+  },
+  {
+   "fieldname": "section_break_3tzpg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_tebkk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_dkig2",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-08 17:38:22.293743",
+ "modified": "2023-02-15 10:46:11.129573",
  "modified_by": "Administrator",
  "module": "Foodlink Supply System",
  "name": "Supply Forecast",

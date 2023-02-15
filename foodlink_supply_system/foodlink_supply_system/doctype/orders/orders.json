@@ -6,11 +6,11 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "customer",
-  "column_break_2",
+  "member",
   "order_type",
+  "column_break_2",
   "order_status",
-  "section_break_5",
+  "section_break_ckrks",
   "order_starting_date",
   "column_break_7",
   "order_ending_date",
@@ -32,12 +32,6 @@
    "fieldtype": "Select",
    "label": "Order Status",
    "options": "On\nOff\nHold"
-  },
-  {
-   "fieldname": "customer",
-   "fieldtype": "Link",
-   "label": "Customer",
-   "options": "Customer"
   },
   {
    "fieldname": "order_starting_date",
@@ -73,10 +67,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "section_break_5",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "column_break_7",
    "fieldtype": "Column Break"
   },
@@ -88,12 +78,22 @@
    "options": "Orders",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "label": "Member",
+   "options": "Members"
+  },
+  {
+   "fieldname": "section_break_ckrks",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-01-11 10:37:40.430075",
+ "modified": "2023-02-15 10:50:21.593264",
  "modified_by": "Administrator",
  "module": "Foodlink Supply System",
  "name": "Orders",

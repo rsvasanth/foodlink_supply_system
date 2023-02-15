@@ -8,12 +8,12 @@
  "field_order": [
   "produce_name",
   "price",
-  "monday_supply",
-  "tuesday_supply",
-  "wednesday_supply",
-  "thursday_supply",
-  "friday_supply",
-  "saturday_supply"
+  "monday_qty",
+  "tuesday_qty",
+  "wednesday_qty",
+  "thursday_qty",
+  "friday_qty",
+  "saturday_qty"
  ],
  "fields": [
   {
@@ -30,45 +30,45 @@
    "label": "Price"
   },
   {
-   "fieldname": "monday_supply",
+   "fieldname": "monday_qty",
    "fieldtype": "Float",
    "in_list_view": 1,
-   "label": "Monday Supply"
+   "label": "Monday Forecast Quantity"
   },
   {
-   "fieldname": "tuesday_supply",
+   "fieldname": "tuesday_qty",
    "fieldtype": "Float",
    "in_list_view": 1,
-   "label": "Tuesday Supply"
+   "label": "Tuesday Forecast Quantity"
   },
   {
-   "fieldname": "wednesday_supply",
+   "fieldname": "wednesday_qty",
    "fieldtype": "Float",
    "in_list_view": 1,
-   "label": "Wednesday Supply"
+   "label": "Wednesday Forecast Quantity"
   },
   {
-   "fieldname": "thursday_supply",
+   "fieldname": "thursday_qty",
    "fieldtype": "Float",
-   "label": "Thursday Supply"
+   "label": "Thursday Forecast Quantity"
   },
   {
-   "fieldname": "friday_supply",
-   "fieldtype": "Float",
-   "in_list_view": 1,
-   "label": "Friday Supply"
-  },
-  {
-   "fieldname": "saturday_supply",
+   "fieldname": "friday_qty",
    "fieldtype": "Float",
    "in_list_view": 1,
-   "label": "Saturday Supply"
+   "label": "Friday Forecast Quantity"
+  },
+  {
+   "fieldname": "saturday_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Saturday Forecast Quantity"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2023-01-08 17:39:29.495432",
+ "modified": "2023-02-15 10:34:40.734107",
  "modified_by": "Administrator",
  "module": "Foodlink Supply System",
  "name": "Forecast Items Table",
